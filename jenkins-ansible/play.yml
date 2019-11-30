@@ -1,0 +1,4 @@
+---
+- hosts: test
+  tasks:
+    - shell: echo "shon phand says hello from ansible-jenkins" > /tmp/name.txt
